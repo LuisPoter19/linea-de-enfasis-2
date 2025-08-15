@@ -1,6 +1,6 @@
 const crypto = require('crypto')
 const { request } = require('express')
-const PostService = require('./post.service')
+//const PostService = require('./post.service')
 
 class CommentService {
 
@@ -59,3 +59,5 @@ class CommentService {
     }
 
 }
+
+module.exports = CommentService;

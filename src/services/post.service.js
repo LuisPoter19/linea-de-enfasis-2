@@ -54,4 +54,4 @@ class PostService {
     }
 }
 
-module.exports = PostService
+module.exports = PostService;
